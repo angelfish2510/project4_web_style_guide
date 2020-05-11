@@ -18,8 +18,8 @@
     border-radius: 5px;
   }
   
-  @for $i from 1 through 12 {.theme.col-($i) {
-    background-color: adjust-hue($color-theme * 20);
+  @for $i from 1 through 12 {.theme.col-#{$i} {
+    background-color: adjust-hue($color-theme, $i * 20);
   }
 }
 
@@ -93,8 +93,9 @@
       }
      
       
-      @for $i from 2 through 12 {.col-($i) {
-        flex-basis: $i + 8.33%;
+      @for $i from 2 through 12 {
+        .col-#{$i}{
+        flex-basis:  ($i * 8.33%);
       }
     }
 
