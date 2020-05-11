@@ -466,18 +466,6 @@ a {
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
-  .btn {
-    padding: 10px 30px;
-  }
-}
-
-@media (min-width: 768px) {
-  .btn + .btn {
-    margin-left: 10px;
-  }
-}
-
 .container {
   padding: 0 10px;
 }
@@ -510,7 +498,7 @@ a {
 }
 
 .theme.col-1 {
-  background-color: $color-theme;
+  background-color: #927bc1;
 }
 
 .theme.col-2 {
