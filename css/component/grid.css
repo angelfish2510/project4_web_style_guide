@@ -1,3 +1,17 @@
+/* Error: Expected "to" or "through".
+ *    ,
+ * 21 |   @for $i from 1-12 {.theme.col-($i) {
+ *    |                     ^
+ *    '
+ *   scss\component\grid.scss 21:21  root stylesheet */
 
-
-/*# sourceMappingURL=grid.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Expected "to" or "through".\a    \2577 \a 21 \2502    @for $i from 1-12 {.theme.col-($i) {\d\a    \2502                      ^\a    \2575 \a   scss\\component\\grid.scss 21:21  root stylesheet';
+}
