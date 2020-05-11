@@ -560,10 +560,6 @@ a {
     flex-basis: 99.96%;
   }
 
-  .col-1 {
-    flex-basis: 8.33%;
-  }
-
   .nav {
     flex-direction: row;
     justify-content: flex-end;
