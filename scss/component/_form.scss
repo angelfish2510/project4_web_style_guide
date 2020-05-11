@@ -21,4 +21,17 @@
     height:1px;
     overflow:hidden;
   }
+
+    
+  .btn {
+    @include mq(768px){
+    padding: 10px 30px;
+    }
+  }
+  
+  .btn + .btn {
+    @include mq(768px){
+    margin-left: 10px;
+  }
+}
   

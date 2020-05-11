@@ -2,13 +2,23 @@
 
 .container {
     padding: 0 10px;
+  @include mq(768px){
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      }
   }
   
   .row {
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
+    @include mq(768px){
+      flex-direction: row;
+      }
   }
+  
   
   [class^=col] {
     margin-top: 10px;
@@ -23,11 +33,7 @@
 //   }
 // }
 
-  .row {
-    @include mq(768px){
-    flex-direction: row;
-    }
-}
+
 
   .theme.col-1 {
     background-color: $color-theme;

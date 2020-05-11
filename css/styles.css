@@ -392,6 +392,17 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
 
 .default {
   background-color: #51ddfc;
@@ -433,6 +444,18 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn + .btn {
+    margin-left: 10px;
+  }
 }
 
 .container {
