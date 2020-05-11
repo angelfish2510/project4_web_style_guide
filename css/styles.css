@@ -445,51 +445,51 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #a97bc1;
+  background-color: #af7bc1;
 }
 
 .theme.col-2 {
-  background-color: #c17bc1;
+  background-color: #c17bb6;
 }
 
 .theme.col-3 {
-  background-color: #c17baa;
+  background-color: #c17b99;
 }
 
 .theme.col-4 {
-  background-color: #c17b93;
-}
-
-.theme.col-5 {
   background-color: #c17b7b;
 }
 
+.theme.col-5 {
+  background-color: #c1987b;
+}
+
 .theme.col-6 {
-  background-color: #c1927b;
+  background-color: #c1b57b;
 }
 
 .theme.col-7 {
-  background-color: #c1a97b;
+  background-color: #b0c17b;
 }
 
 .theme.col-8 {
-  background-color: #c1c17b;
-}
-
-.theme.col-9 {
-  background-color: #aac17b;
-}
-
-.theme.col-10 {
   background-color: #93c17b;
 }
 
+.theme.col-9 {
+  background-color: #7bc181;
+}
+
+.theme.col-10 {
+  background-color: #7bc19e;
+}
+
 .theme.col-11 {
-  background-color: #7bc17b;
+  background-color: #7bc1bb;
 }
 
 .theme.col-12 {
-  background-color: #7bc192;
+  background-color: #7baac1;
 }
 
 .card {

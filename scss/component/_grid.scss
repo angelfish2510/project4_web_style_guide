@@ -19,7 +19,7 @@
   }
   
   @for $i from 1 through 12 {.theme.col-#{$i} {
-    background-color: adjust-hue($color-theme, $i * 20);
+    background-color: adjust-hue($color-theme, $i * 25);
   }
 }
 
