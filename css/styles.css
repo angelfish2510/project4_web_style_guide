@@ -1,9 +1,10 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 |         'base/index',
- *   |         ^^^^^^^^^^^^
- *   '
- *   scss\styles.scss 5:9  root stylesheet */
+/* Error: expected selector.
+ *    ,
+ * 21 |   @for $i from 1 through 12 {.theme.col-($i){
+ *    |                                         ^
+ *    '
+ *   scss\component\_grid.scss 21:41  @import
+ *   scss\styles.scss 9:9             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502          'base/index',\d\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   scss\\styles.scss 5:9  root stylesheet";
+  content: "Error: expected selector.\a    \2577 \a 21 \2502    @for $i from 1 through 12 {.theme.col-($i){\d\a    \2502                                          ^\a    \2575 \a   scss\\component\\_grid.scss 21:41  @import\a   scss\\styles.scss 9:9             root stylesheet";
 }
