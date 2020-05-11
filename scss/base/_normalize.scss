@@ -23,6 +23,15 @@
   body {
     margin: 0;
   }
+
+  .container {
+    @include mq($lg){
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
   
   /**
    * Render the `main` element consistently in IE.
