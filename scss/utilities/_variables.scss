@@ -1,5 +1,4 @@
 
-
 $color-primary: #777;
 
 $color-link: #51ddfc;
@@ -38,5 +37,18 @@ $theme-color: (
 );
 
 
+$btn-color: (
+  'default': $color-link,
+  'error': #e4757a,
+  'info': $color-theme,
+  'success': #63cc82,
+  'warning': #fd7856,
+);
 
+$btn-hover: lighten($color, 15%);
 
+// @each $btn-name, $color in $btn-color {
+//   .#{btn-name} {
+//     background-color: $color;
+//   }
+// }

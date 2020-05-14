@@ -8,20 +8,40 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    // @each $btn-name, $color in $btn-color {
+    //   &.#{btn-name} {
+    //     background-color: $color;
+    //   }
+    // }
+    }
     @include mq(768px){
       padding: 10px 30px;
       }
-  }
+    // &:hover {
+    //   background-color: $btn-hover;
+    // }
+  
   
   .btn + .btn {
     @include mq(768px){
     margin-left: 10px;
   }
 }
-  
+
+
+// .col-12 > button {
+//   @each $btn-name, $color in $btn-color {
+//     &.#{btn-name} {
+//       background-color: $color;
+//     }
+//   }
+//   }
+
+
   
   .default {
     background-color: $color-link;
+
   }
   
   .error {
@@ -40,3 +60,21 @@
     background-color: #fd7856;
   }
   
+
+//   .default,
+//   .error,
+//   .info,
+//   .success {
+//   // .warning {
+//   //   background-color: map-get($btn-color)
+//   // }
+//     @each $btn-name, $color in $btn-color {
+//     .#{btn-name} {
+//       background-color: $color;
+//     }
+//   }
+// }
+
+  // &:hover {
+  //   background-color: adjust-hue map-get($btn-color * 15%)
+  // }

@@ -362,7 +362,6 @@ a {
   color: #58e1c1;
   margin-left: 10px;
 }
-
 .headline-secondary {
   font-weight: 300;
   color: #777;
@@ -402,26 +401,6 @@ a {
   .btn + .btn {
     margin-left: 10px;
   }
-}
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
 }
 
 .form {
@@ -484,7 +463,6 @@ a {
     align-items: center;
   }
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
