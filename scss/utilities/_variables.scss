@@ -37,13 +37,13 @@ $theme-color: (
 );
 
 
-$btn-color: (
-  'default': $color-link,
-  'error': #e4757a,
-  'info': $color-theme,
-  'success': #63cc82,
-  'warning': #fd7856,
-);
+// $btn-color: (
+//   'default': $color-link,
+//   'error': #e4757a,
+//   'info': $color-theme,
+//   'success': #63cc82,
+//   'warning': #fd7856,
+// );
 
 $btn-hover: lighten($color, 15%);
 
