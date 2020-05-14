@@ -390,13 +390,43 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 1s ease-in;
+}
+.btn.default {
+  background-color: #51ddfc;
+}
+.btn.default:hover {
+  background-color: #9cecfd;
+}
+.btn.error {
+  background-color: #e4757a;
+}
+.btn.error:hover {
+  background-color: #f1b5b8;
+}
+.btn.info {
+  background-color: #927bc1;
+}
+.btn.info:hover {
+  background-color: #bdafd9;
+}
+.btn.success {
+  background-color: #63cc82;
+}
+.btn.success:hover {
+  background-color: #9ddfb0;
+}
+.btn.warning {
+  background-color: #fd7856;
+}
+.btn.warning:hover {
+  background-color: #feb4a2;
 }
 @media (min-width: 768px) {
   .btn {
     padding: 10px 30px;
   }
 }
-
 @media (min-width: 768px) {
   .btn + .btn {
     margin-left: 10px;
@@ -476,7 +506,6 @@ a {
     flex-basis: 100px;
   }
 }
-
 .nav-link:hover {
   color: #777;
   background-color: #58e1c1;
@@ -541,14 +570,6 @@ a {
   background-color: #ec9fa3;
 }
 
-@media (min-width: 768px) {
-  .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .theme.col-8 {
   background-color: #fd9f85;
 }
@@ -567,6 +588,14 @@ a {
 
 .theme.col-12 {
   background-color: #80e8d1;
+}
+
+@media (min-width: 768px) {
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .card {

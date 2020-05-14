@@ -8,26 +8,27 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    // @each $btn-name, $color in $btn-color {
-    //   &.#{btn-name} {
-    //     background-color: $color;
-    //   }
-    // }
+    transition: background-color 1s ease-in;
+
+    @each $btn-name, $color in $btn-color {
+      &.#{$btn-name} {
+        background-color: $color;
+        &:hover {
+       background-color: lighten($color, 15%);
+        }
+      }
     }
-    @include mq(768px){
+    
+    @include mq($break) {
       padding: 10px 30px;
       }
-    // &:hover {
-    //   background-color: $btn-hover;
-    // }
   
-  
-  .btn + .btn {
-    @include mq(768px){
+  &+ .btn {
+    @include mq($break){
     margin-left: 10px;
+    }
   }
 }
-
 
 // .col-12 > button {
 //   @each $btn-name, $color in $btn-color {
@@ -39,26 +40,26 @@
 
 
   
-  .default {
-    background-color: $color-link;
+  // .default {
+  //   background-color: $color-link;
 
-  }
+  // }
   
-  .error {
-    background-color: #e4757a;
-  }
+  // .error {
+  //   background-color: #e4757a;
+  // }
   
-  .info {
-    background-color: $color-theme;
-  }
+  // .info {
+  //   background-color: $color-theme;
+  // }
   
-  .success {
-    background-color: #63cc82;
-  }
+  // .success {
+  //   background-color: #63cc82;
+  // }
   
-  .warning {
-    background-color: #fd7856;
-  }
+  // .warning {
+  //   background-color: #fd7856;
+  // }
   
 
 //   .default,

@@ -35,7 +35,7 @@
 
 
 @for $i from 1 through 12 {.theme.col-#{$i} {
-  background-color: map-get($theme-color, 'color-col-$i')
+  background-color: nth($theme-color, $i)
   }
 }
 
